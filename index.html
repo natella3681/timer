@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/86b1d4f6bb.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Pomodoro timer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Pomodoro clock</h1>
+        <div class="timer">
+            <span id="count"></span>
+            <div class="type-count">
+                <div class="session-inp">
+                    <h2 class="title-2">Session Length</h2>
+                    <input type="number" class="inp session" value="25" readonly>
+                </div>
+                <div class="break-inp">
+                    <h2 class="title-2">Break Length</h2>
+                    <input type="number" class="inp break" value="5" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-wrapper">
+            <button class="btn play"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="btn pause"><i class="fa fa-pause" aria-hidden="true"></i></button>
+            <button class="btn reset"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

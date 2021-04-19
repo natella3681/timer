@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+  color: #942222;
+  background: #54997d;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e1e8e5;
+  width: 40%;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+.title{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.title-2{
+    margin-right: 15px;
+    margin-bottom: 2vh;
+}
+#count{
+  font-size: 40px;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: 3px solid #942222;
+  margin-left: 30%;
+}
+.inp{
+  width: 50px;
+  border: none;
+}
+input[type=number]{
+  font-size: 30px;
+  background: #e1e8e5;
+  color: #124b4f;
+  font-weight: bold;
+}
+.session-inp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.break-inp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.min{
+    color: #124b4f;
+}
+.type-count{
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 5px;
+  border-radius: 50%;
+  padding: 10px 12px;
+  border: 1px solid #124b4f;
+  color: #124b4f;
+}
+.pause{
+  margin-top: 15px;
+}
+
+@media(max-width: 1000px){
+    .container{
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 462px){
+    .container{
+        width: 96%;
+        margin: 7px auto;
+    }
+    .title-2{
+        margin-left: 30px;
+    }
+}
