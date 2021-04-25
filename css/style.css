@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
 body{ 
   color: #942222;
   background: #54997d;
@@ -37,6 +32,7 @@ body{
   margin-left: 30%;
 }
 .inp{
+  margin-top: 15px;
   width: 50px;
   border: none;
 }
@@ -46,6 +42,44 @@ input[type=number]{
   color: #124b4f;
   font-weight: bold;
 }
+.arrows{
+  position: relative;
+  box-shadow: 0 0 10px #124b4f;
+}
+.arr{
+  cursor: pointer;
+  color: #124b4f;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #124b4f;
+  top: 0px;
+  transition: all ease 1s;
+}
+.arr:active{
+  top: 0.5px;
+}
+.up-arrow-one{
+  position: absolute;
+  top: -34px;
+  left: 19px;
+}
+.down-arrow-one{
+  position: absolute;
+  top: -34px;
+  left: -70px;
+}
+.up-arrow-two{
+  position: absolute;
+  top: -34px;
+  left: 19px;
+}
+.down-arrow-two{
+  position: absolute;
+  top: -34px;
+  left: -70px;
+}
+
 .session-inp{
     display: flex;
     flex-direction: column;
@@ -76,6 +110,7 @@ input[type=number]{
 .pause{
   margin-top: 15px;
 }
+
 
 @media(max-width: 1000px){
     .container{
